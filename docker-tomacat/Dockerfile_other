@@ -144,6 +144,12 @@ COPY ./target/profile/digitalocean3/common-db.properties_do3 /common-db.properti
 COPY ./target/profile/digitalocean3/elasticsearch.properties_do3 /elasticsearch.properties_do3
 COPY ./target/profile/digitalocean3/req_receiver.properties_do3 /req_receiver.properties_do3
 
+COPY ./target/profile/digitalocean4/kafka-producer.properties_do4 /kafka-producer.properties_do4
+COPY ./target/profile/digitalocean4/kafka-consumer.properties_do4 /kafka-consumer.properties_do4
+COPY ./target/profile/digitalocean4/common-db.properties_do4 /common-db.properties_do4
+COPY ./target/profile/digitalocean4/elasticsearch.properties_do4 /elasticsearch.properties_do4
+COPY ./target/profile/digitalocean4/req_receiver.properties_do4 /req_receiver.properties_do4
+
 
 #RUN rm -rf /opt/tomcat/webapps
 
