@@ -179,10 +179,6 @@ public class StartApplication
 					 for(int i=0;i<tablelist.size();i++) {
 						 
 						 createTable(con,schema+".deliveriesbackup_"+tablelist.get(i));
-
-
-						 
-
 					 }
 				 }
 				 
